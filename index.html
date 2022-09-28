@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Fetch API Sandbox</title>
+    <!-- CSS only -->
+<link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-iYQeCzEYFbKjA/T2uDLTpkwGzCiq6soy8tYaI1GyVh/UjpbCx/TYkiZhlZB6+fzT" crossorigin="anonymous">
+
+</head>
+<body>
+  <div class="container">
+    <h1 class="display-4 mb-4">Fetch API Sandbox</h1>
+    <div class="d-flex ">
+    <button id="getText" class="btn btn-primary  ">Get Text</button>
+    <button  id="getUsers" class="btn btn-success mx-2">Get Users</button>
+    <button id="getPosts" class="btn btn-warning mx-2">Get API DATA</button>
+    </div>
+    <div id="output">
+
+        <form id="addPost">
+            <div class="form-group">
+                <input class="form-control" type="text" id="title" placeholder="Title">
+            </div>
+            <div class="form-group">
+                <textarea  class="form-control"type="text" id="body" placeholder="body"></textarea>
+
+            </div>
+            <input type="submit" value="Submit" class=" btn btn-secondary">
+        </form>
+        
+    </div>
+  </div>
+
+
+    <script src="app.js"></script>
+</body>
+</html>
